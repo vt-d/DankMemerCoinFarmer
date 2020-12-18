@@ -1,4 +1,4 @@
-import discord, time, asyncio
+import discord, time
 
 class MyClient(discord.Client):
 
