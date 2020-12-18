@@ -8,8 +8,8 @@ class MyClient(discord.Client):
     async def on_message(self, message):
         #if message.author == client.user:
         #    return
-        channel = client.get_channel(751276567463854120)
-        if message.author.id == 270904126974590976 and message.channel.id == 751276567463854120:
+        channel = client.get_channel(ENTER CHANNEL ID)
+        if message.author.id == 270904126974590976 and message.channel.id == ENTER CHANNEL ID:
             #print("Message from {0.author}: {0.content}".format(message))
             if "christmas tree" in message.content:
                 time.sleep(1)
@@ -55,5 +55,4 @@ class MyClient(discord.Client):
                 await channel.send("push")
             
 client = MyClient()
-client.run("Mzc5NDcwMTg4NjY5ODI5MTIx.X6loFQ.8-TAOVT3HD7Wr0NyExRYK_wVXXw", bot = False)
-#NzEzNTY3NjEyOTk0NDUzNTA0.X9qB6g.DVYlwTZhNbZsjgn0zmqPdNmaebY
+client.run("ENTER TOKEN", bot = False)
