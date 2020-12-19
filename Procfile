@@ -1,1 +1,1 @@
-worker: python dankmemercoinfarmer/dankmemersend.py
+worker: python dankmemersend.py
