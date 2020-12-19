@@ -4,7 +4,7 @@ class MyClient(discord.Client):
 
     async def on_ready(self):
         print("Logged on as {0}!".format(self.user))
-        channel = client.get_channel(ENTER CHANNEL ID)
+        channel = client.get_channel(751276567463854120)
         while True:
             await channel.send("pls hunt")
             time.sleep(5)
