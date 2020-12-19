@@ -1,4 +1,4 @@
-import discord, time
+import discord, time, os
 
 class MyClient(discord.Client):
 
@@ -24,4 +24,5 @@ class MyClient(discord.Client):
             time.sleep(15)
             
 client = MyClient()
-client.run("ENTER TOKEN", bot = False)
+token = os.getenv("DISCORD_BOT_TOKEN")
+client.run(token, bot = False)
