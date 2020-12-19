@@ -62,7 +62,7 @@ class MyClient(discord.Client):
             elif "throw snowball" in message.content:
                 time.sleep(1)
                 await channel.send("throw snowball")
-            elif "get the camera read" in message.content:
+            elif "get the camera ready" in message.content:
                 time.sleep(1)
                 await channel.send("get the camera ready")
             
