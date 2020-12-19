@@ -53,6 +53,12 @@ class MyClient(discord.Client):
             elif "push" in message.content:
                 time.sleep(1)
                 await channel.send("push")
+            elif "dibs" in message.content:
+                time.sleep(1)
+                await channel.send("dibs")
+            elif "happy holidays" in message.content:
+                time.sleep(1)
+                await channel.send("happy holidays")
             
 client = MyClient()
 client.run("ENTER TOKEN", bot = False)
