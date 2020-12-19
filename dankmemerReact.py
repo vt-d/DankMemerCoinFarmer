@@ -65,6 +65,9 @@ class MyClient(discord.Client):
             elif "get the camera ready" in message.content:
                 time.sleep(1)
                 await channel.send("get the camera ready")
+            elif "whoville sucks" in message.content:
+                time.sleep(1)
+                await channel.send("whoville sucks")
             
 client = MyClient()
 client.run("ENTER TOKEN", bot = False)
