@@ -59,6 +59,12 @@ class MyClient(discord.Client):
             elif "happy holidays" in message.content:
                 time.sleep(1)
                 await channel.send("happy holidays")
+            elif "throw snowball" in message.content:
+                time.sleep(1)
+                await channel.send("throw snowball")
+            elif "get the camera read" in message.content:
+                time.sleep(1)
+                await channel.send("get the camera ready")
             
 client = MyClient()
 client.run("ENTER TOKEN", bot = False)
