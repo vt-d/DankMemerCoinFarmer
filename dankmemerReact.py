@@ -68,6 +68,9 @@ class MyClient(discord.Client):
             elif "whoville sucks" in message.content:
                 time.sleep(1)
                 await channel.send("whoville sucks")
+            elif "build snowman" in message.content:
+                time.sleep(1)
+                await channel.send("build snowman")
             
 client = MyClient()
 client.run("ENTER TOKEN", bot = False)
