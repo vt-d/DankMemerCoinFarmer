@@ -12,3 +12,4 @@ Installation - `pip install discord.py`
 7. PROFIT
 
 Best Features: No need to have discord open and You can use discord on the same account while this is running!
+**CAN BE HOSTED ON A SERVER FOR 24/7 SUPPORT**
