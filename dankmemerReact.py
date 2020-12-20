@@ -71,6 +71,9 @@ class MyClient(discord.Client):
             elif "build snowman" in message.content:
                 time.sleep(1)
                 await channel.send("build snowman")
+            elif "hook line sinker" in message.content:
+                time.sleep(1)
+                await channel.send("hook line sinker")
             
 client = MyClient()
 client.run("ENTER TOKEN", bot = False)
