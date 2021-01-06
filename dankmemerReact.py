@@ -35,6 +35,24 @@ class MyClient(discord.Client):
             elif "oh frick a dragon" in message.content:
                 time.sleep(1)
                 await channel.send("oh frick a dragon")
+             elif "pls no eating me" in message.content:
+                time.sleep(1)
+                await channel.send("pls no eating me")
+            elif "woah those are some toothers" in message.content:
+                time.sleep(1)
+                await channel.send("woah those are some toothers") 
+            elif "why didn't I just go fishing" in message.content:
+                time.sleep(1)
+                await channel.send("why didn't I just go fishing")
+            elif "eat lead dragon" in message.content:
+                time.sleep(1)
+                await channel.send("eat lead dragon")    
+            elif "imma kill this dragon" in message.content:
+                time.sleep(1)
+                await channel.send("imma kill this dragon")
+            elif "pls no eating me" in message.content:
+                time.sleep(1)
+                await channel.send("pls no eating me")                    
             elif "make snow angel" in message.content:
                 time.sleep(1)
                 await channel.send("make snow angel")                                             
