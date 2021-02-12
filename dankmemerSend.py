@@ -22,5 +22,5 @@ class MyClient(discord.Client):
             time.sleep(15)
             
 client = MyClient()
-token = os.getenv(DISCORD_BOT_TOKEN)
+token = os.getenv('DISCORD_BOT_TOKEN')
 client.run(token, bot = False)
