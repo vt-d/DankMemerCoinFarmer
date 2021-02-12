@@ -9,7 +9,7 @@ class MyClient(discord.Client):
             await channel.send("pls hunt")
             time.sleep(5)
             await channel.send("pls search")
-            time.sleep(10)
+            time.sleep(5)
             await channel.send("pls fish")
             time.sleep(9)
             await channel.send("pls beg")
