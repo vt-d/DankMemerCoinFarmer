@@ -22,6 +22,9 @@ class MyClient(discord.Client):
             elif "north pole" in message.content:
                 time.sleep(1)
                 await channel.send("north pole")
+            elif "discord" in message.content:
+                time.sleep(1)
+                await channel.send("discord")
             elif "christmas card" in message.content:
                 time.sleep(1)
                 await channel.send("christmas card")
