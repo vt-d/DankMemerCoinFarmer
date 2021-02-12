@@ -11,7 +11,7 @@ class MyClient(discord.Client):
             await channel.send("pls search")
             time.sleep(5)
             await channel.send("pls fish")
-            time.sleep(9)
+            time.sleep(15)
             await channel.send("pls beg")
             time.sleep(20)
             await channel.send("pls pm")
