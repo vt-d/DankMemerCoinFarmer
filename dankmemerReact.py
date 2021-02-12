@@ -100,6 +100,9 @@ class MyClient(discord.Client):
             elif "pocket" in message.content:
                 time.sleep(1)
                 await channel.send("pocket")
+            elif "laundromat" in message.content:
+                time.sleep(1)
+                await channel.send("laundromat")
             elif "bed" in message.content:
                 time.sleep(1)
                 await channel.send("bed")
