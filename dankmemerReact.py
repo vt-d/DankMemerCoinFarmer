@@ -74,6 +74,27 @@ class MyClient(discord.Client):
             elif "hook line sinker" in message.content:
                 time.sleep(1)
                 await channel.send("hook line sinker")
+            elif "dog" in message.content:
+                time.sleep(1)
+                await channel.send("dog")
+            elif "pantry" in message.content:
+                time.sleep(1)
+                await channel.send("pantry")
+            elif "mailbox" in message.content:
+                time.sleep(1)
+                await channel.send("mailbox")
+            elif "dresser" in message.content:
+                time.sleep(1)
+                await channel.send("dresser")
+            elif "uber" in message.content:
+                time.sleep(1)
+                await channel.send("uber")
+            elif "pocket" in message.content:
+                time.sleep(1)
+                await channel.send("pocket")
+            elif "bed" in message.content:
+                time.sleep(1)
+                await channel.send("bed")
             
 client = MyClient()
 client.run("ENTER TOKEN", bot = False)
