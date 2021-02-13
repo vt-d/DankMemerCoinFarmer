@@ -22,6 +22,9 @@ class MyClient(discord.Client):
             if "couch" in message.content:
                 time.sleep(1)
                 await channel.send("couch")
+            if "sink" in message.content:
+                time.sleep(1)
+                await channel.send("sink")
             if "christmas tree" in message.content:
                 time.sleep(1)
                 await channel.send("christmas tree")
