@@ -1,4 +1,4 @@
-import discord, time
+import discord, time, os
 
 class MyClient(discord.Client):
 
