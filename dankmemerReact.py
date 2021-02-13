@@ -8,17 +8,26 @@ class MyClient(discord.Client):
     async def on_message(self, message):
         #if message.author == client.user:
         #    return
-        channel = client.get_channel(ENTER CHANNEL ID)
-        if message.author.id == 270904126974590976 and message.channel.id == ENTER CHANNEL ID:
+        channel = client.get_channel(752051281950015570)
+        if message.author.id == 270904126974590976 and message.channel.id == 752051281950015570:
             #print("Message from {0.author}: {0.content}".format(message))
             message.content = message.content.replace('﻿','')
             if "god forbid" in message.content:
                 print("Interacted with a Dragon !")
             if "EVENT TIME WOO!" in message.content:
                 print("Interacting with a Event !")
+            if "street" in message.content:
+                time.sleep(1)
+                await channel.send("street")
+            if "couch" in message.content:
+                time.sleep(1)
+                await channel.send("couch")
             if "christmas tree" in message.content:
                 time.sleep(1)
                 await channel.send("christmas tree")
+            if "fridge" in message.content:
+                time.sleep(1)
+                await channel.send("fridge")
             elif "north pole" in message.content:
                 time.sleep(1)
                 await channel.send("north pole")
@@ -40,6 +49,9 @@ class MyClient(discord.Client):
             elif "oh look a dragon" in message.content:
                 time.sleep(1)
                 await channel.send("oh look a dragon")
+            elif "tree" in message.content:
+                time.sleep(1)
+                await channel.send("tree")
             elif "oh frick a dragon" in message.content:
                 time.sleep(1)
                 await channel.send("oh frick a dragon")
@@ -97,6 +109,9 @@ class MyClient(discord.Client):
             elif "uber" in message.content:
                 time.sleep(1)
                 await channel.send("uber")
+            elif "grass" in message.content:
+                time.sleep(1)
+                await channel.send("grass")
             elif "pocket" in message.content:
                 time.sleep(1)
                 await channel.send("pocket")
@@ -106,8 +121,13 @@ class MyClient(discord.Client):
             elif "bed" in message.content:
                 time.sleep(1)
                 await channel.send("bed")
+            elif "air" in message.content:
+                time.sleep(1)
+                await channel.send("air")
             elif "f in chat" in message.content:
                 await channel.send("f in chat")
+            elif "fuck off karen" in message.content:
+                await channel.send("fuck off karen")
             elif "i am so very bored" in message.content:
                 await channel.send("i am so very bored")
             elif "wear a mask god damn it" in message.content:
@@ -120,4 +140,5 @@ class MyClient(discord.Client):
                 await channel.send("why didn't I just go fishing")
             
 client = MyClient()
-client.run("ENTER TOKEN", bot = False)
+token = os.getenv("DISCORD_BOT_TOKEN")
+client.run(token, bot = False)
