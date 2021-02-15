@@ -1,4 +1,4 @@
-# DankMemerCoinFarmer
+# DankMemerCoinFarmer - WARNING: HAS BEEN CUSTOMIZED SEVERELY FOR MY USE
 I developed this to farm coins for me using the Dank Memer Discord Bot currency feature. This is extremely efficient and farmed me around 1.1million coins in 12 hours
 
 Installation - `pip install discord.py`
