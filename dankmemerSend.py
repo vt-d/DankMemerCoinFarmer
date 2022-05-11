@@ -17,6 +17,7 @@ async def on_connect():
         await channel.send("pls beg")
         await asyncio.sleep(5)
         await channel.send("pls dig")
+        await asyncio.sleep(1)
         await channel.send("pls dep all")
         await asyncio.sleep(15)
             
