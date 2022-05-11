@@ -1,5 +1,5 @@
-import discord, os
-import asyncio
+import discord, os, asyncio
+import config
 client = discord.Client()
 
 @client.event
@@ -8,7 +8,7 @@ async def on_ready():
 
 @client.event
 async def on_connect():
-    channel = client.get_channel(752051281950015570)
+    channel = client.get_channel(config.channel)
     while True:
         await channel.send("pls hunt")
         await asyncio.sleep(5)
@@ -21,5 +21,5 @@ async def on_connect():
         await channel.send("pls dep all")
         await asyncio.sleep(15)
             
-token = os.getenv('DISCORD_BOT_TOKEN')
+token = config.token
 client.run(token, bot = False)
